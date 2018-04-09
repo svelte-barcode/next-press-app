@@ -17,5 +17,8 @@
     "mz": "^2.7.0",
     "ora": "^2.0.0",
     "promise": "^8.0.1"
+  },
+  "bin": {
+    "next-press-app": "./bin/next-press-app.js"
   }
 }
