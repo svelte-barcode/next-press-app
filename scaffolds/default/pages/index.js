@@ -8,7 +8,7 @@ export default () => (
     <Nav />
 
     <div className="hero">
-      <h1 className="title">Welcome to next-press-app ( Next.js building tools)</h1>
+      <h1 className="title">Welcome to next-press-app (Next.js building tools)</h1>
       <p className="description">To get started, edit <code>pages/index.js</code> and save to reload.</p>
 
       <div className="row">
