@@ -12,6 +12,8 @@
     "ansi-escapes": "^3.1.0",
     "chalk": "^2.3.2",
     "commander": "^2.15.1",
+    "cross-spawn": "^6.0.5",
+    "execa": "^0.10.0",
     "mkdirp-then": "^1.2.0",
     "ms": "^2.1.1",
     "mz": "^2.7.0",
