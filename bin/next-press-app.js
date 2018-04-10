@@ -9,6 +9,7 @@ const consoles = lib.consoles
 const nextPressApp = lib.nextPressApp
 
 let projectName
+let templateName
 
 program
   .version(pkg.version)
@@ -17,6 +18,7 @@ program
   .action(function (name) {
     projectName = name
   })
+  .option('-t, --template <templateName>', consoles.template())
   .option('-e, --example <example-path>', consoles.example())
   .allowUnknownOption()
   .on('--help', consoles.help)
@@ -24,7 +26,10 @@ program
 
 const example = program.example
 
+const template = program.template
+
 nextPressApp({
   projectName,
+  template,
   example
 })
